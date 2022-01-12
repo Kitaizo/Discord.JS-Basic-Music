@@ -17,7 +17,7 @@ client.once('ready', () => {
         ]
 
         const status = statuses[Math.floor(Math.random() * statuses.length)]
-        client.user.setActivity(status, { type: "WATCHING"}) // Can Be WATCHING, STREAMING, LISTENING
+        client.user.setActivity(status, { type: "WATCHING"}) // Can Be WATCHING, STREAMING, LISTENING, PLAYING
     }, 2000) // Second You Want to Change Status, This Cahnges Every 2 Seconds
 });
 
